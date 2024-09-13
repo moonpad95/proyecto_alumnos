@@ -17,14 +17,9 @@
 
 */
 import React from "react";
-// react plugin used to create charts
-import { Line, Pie } from "react-chartjs-2";
-import hombre from "hombre.png";
-import mujer from "mujer.webp";
-// reactstrap components
+
 import {
   Card,
-  CardHeader,
   CardBody,
   CardFooter,
   CardTitle,
@@ -32,52 +27,41 @@ import {
   Col
 } from "reactstrap";
 // core components
-import {
-  dashboard24HoursPerformanceChart,
-  dashboardEmailStatisticsChart,
-  dashboardNASDAQChart
-} from "variables/charts.js";
 
-function Dashboard() {
+function Dashboard({ studentNumber, studentName, imageSrc }) {
   return (
     <>
-      <div className="content">
-        <Row>
-          <Col lg="3" md="6" sm="6">
-            <Card className="card-stats">
-              <CardBody>
-                <Row>
-                  <Col md="4" xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-globe text-warning" />
-                    </div>
-                  </Col>
-                  <Col md="8" xs="7">
-                    <div className="numbers">
-                      <p className="card-category">ALUMNO 1</p>
-                      <CardTitle tag="p">JUAN PEREZ</CardTitle>
-                      <p />
-                    </div>
-                  </Col>
-                </Row>
-              </CardBody>
-              <CardFooter>
-                <hr />
-                <div className="stats">
-                </div>
-                <a
-                  href="/"
-                  className="simple-text logo-mini"
-                >
-                  <div className="logo-img">
-                    <img src={hombre} alt="react-logo" />
-                  </div>
-                </a>
-              </CardFooter>
-            </Card>
-          </Col>
+        <Col lg="4" md="6" sm="6">
+      <Card className="card-stats">
+        <CardBody >
+          <Row>
+            <Col md="4" xs="5">
+              <div className="icon-big text-center icon-warning">
+                <i className="nc-icon nc-globe text-warning" />
+              </div>
+            </Col>
+            <Col md="8" xs="7">
+              <div className="numbers">
+                <p className="card-category">ALUMNO {studentNumber}</p>
+                <CardTitle tag="p">{studentName}</CardTitle>
+                <p />
+              </div>
+            </Col>
+          </Row>
+        </CardBody>
+        <CardFooter>
+          <hr />
+          <div className="stats"></div>
+          <a href="/" className="simple-text logo-mini">
+            <div className="logo-img" style={{textAlign: "center"}}>
+              <img src={imageSrc} alt="student-logo" style={{maxHeight: "300px"}} />
+            </div>
+          </a>
+        </CardFooter>
+      </Card>
+    </Col>
 
-          <Col lg="3" md="6" sm="6">
+         {/* <Col lg="3" md="6" sm="6">
             <Card className="card-stats">
               <CardBody>
                 <Row>
@@ -104,18 +88,11 @@ function Dashboard() {
                   className="simple-text logo-mini"
                 >
                   <div className="logo-img">
-                    <img src={mujer} alt="react-logo" />
                   </div>
                 </a>
               </CardFooter>
             </Card>
-          </Col>         
-        </Row>
-        <Row>
-          
-          
-        </Row>
-      </div>
+          </Col>           */}
     </>
   );
 }
