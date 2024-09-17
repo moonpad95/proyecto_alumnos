@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/proyecto_alumnos/static/css/main.ce644069.css",
-    "main.js": "/proyecto_alumnos/static/js/main.55b14719.js",
+    "main.js": "/proyecto_alumnos/static/js/main.3bcd3438.js",
     "static/media/reyna.jpg": "/proyecto_alumnos/static/media/reyna.b7b018c84dbdb64d4440.jpg",
     "static/media/SotoGraciano.jpg": "/proyecto_alumnos/static/media/SotoGraciano.8b71075c4f7773ef36b3.jpg",
     "static/media/ontiveros.png": "/proyecto_alumnos/static/media/ontiveros.c5f62018be5635dc07d0.png",
+    "static/media/zaldivar.jpeg": "/proyecto_alumnos/static/media/zaldivar.065d964227ebd1a2d87e.jpeg",
     "static/media/GurrolaAntuna.jpg": "/proyecto_alumnos/static/media/GurrolaAntuna.6783816785700de21a61.jpg",
     "static/media/luna.jpeg": "/proyecto_alumnos/static/media/luna.3509dc9c4437734a7f46.jpeg",
     "static/media/Campagne.jpg": "/proyecto_alumnos/static/media/Campagne.21a646d6741a4ee7ef5a.jpg",
@@ -28,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.ce644069.css",
-    "static/js/main.55b14719.js"
+    "static/js/main.3bcd3438.js"
   ]
 }
