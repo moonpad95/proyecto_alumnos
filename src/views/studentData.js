@@ -10,7 +10,7 @@ import imageGurrola from '../assets/utd-img/GurrolaAntuna.jpg';
 // import imageHernandez from '../assets/utd-img/hernandez.jpg';
 import imageHerrera from '../assets/utd-img/Herrera_Ortiz.jpg';
 import imageIbarra from '../assets/utd-img/Ibarra.JPG';
-import imageLeon from '../assets/utd-img/Leon_Quintanaa.jpeg';
+import imageLeon from '../assets/utd-img/Leon_Quintanaaa.jpeg';
 import imageLuna from '../assets/utd-img/luna.jpeg';
 import imageManzanilla from '../assets/utd-img/manzanilla.jpg';
 import imageOntiveros from '../assets/utd-img/ontiveros.png';
