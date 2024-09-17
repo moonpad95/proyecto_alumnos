@@ -23,7 +23,7 @@ import imageSoto from '../assets/utd-img/soto cervantes.jpg';
 import imageSoto1 from '../assets/utd-img/SotoGraciano.jpg';
 // import imageTorres from '../assets/utd-img/torres.jpg';
 import imageVallejo from '../assets/utd-img/vallejo.jpg';
-import imageZaldivar from '../assets/img/faces/clem-onojeghuo-2.jpg';
+import imageZaldivar from '../assets/utd-img/zaldivar.jpeg';
 import Dashboard from './Dashboard';
 
 const studentData = [
