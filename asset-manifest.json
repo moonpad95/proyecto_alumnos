@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto_alumnos/static/css/main.ce644069.css",
-    "main.js": "/proyecto_alumnos/static/js/main.3bcd3438.js",
+    "main.js": "/proyecto_alumnos/static/js/main.1768efb3.js",
     "static/media/reyna.jpg": "/proyecto_alumnos/static/media/reyna.b7b018c84dbdb64d4440.jpg",
     "static/media/SotoGraciano.jpg": "/proyecto_alumnos/static/media/SotoGraciano.8b71075c4f7773ef36b3.jpg",
     "static/media/ontiveros.png": "/proyecto_alumnos/static/media/ontiveros.c5f62018be5635dc07d0.png",
@@ -11,12 +11,12 @@
     "static/media/Campagne.jpg": "/proyecto_alumnos/static/media/Campagne.21a646d6741a4ee7ef5a.jpg",
     "static/media/GonzálezHerrera.png": "/proyecto_alumnos/static/media/GonzálezHerrera.6b048799ac092438c192.png",
     "static/media/IMG_20240912_164657-transformed.jpeg": "/proyecto_alumnos/static/media/IMG_20240912_164657-transformed.f072b9c1bd57550828ee.jpeg",
+    "static/media/Leon_Quintanaaa.jpeg": "/proyecto_alumnos/static/media/Leon_Quintanaaa.b0ff1e57977834cd1cfd.jpeg",
     "static/media/clem-onojeghuo-2.jpg": "/proyecto_alumnos/static/media/clem-onojeghuo-2.d16702ce00aa38f275c0.jpg",
     "static/media/manzanilla.jpg": "/proyecto_alumnos/static/media/manzanilla.92fae96eff1df4dc7b00.jpg",
     "static/media/soto cervantes.jpg": "/proyecto_alumnos/static/media/soto cervantes.264cd4dbe5c3ded1ee4a.jpg",
     "static/media/vallejo.jpg": "/proyecto_alumnos/static/media/vallejo.babb6f17b433acef5162.jpg",
     "static/media/castañeda.jpg": "/proyecto_alumnos/static/media/castañeda.9c8c323b6a9e5680a47f.jpg",
-    "static/media/Leon_Quintanaa.jpeg": "/proyecto_alumnos/static/media/Leon_Quintanaa.99564c5e16877b8124c1.jpeg",
     "static/media/Sanchez_Daniel.jpeg": "/proyecto_alumnos/static/media/Sanchez_Daniel.4e1468a2e69ef4d06e05.jpeg",
     "static/media/Ibarra.JPG": "/proyecto_alumnos/static/media/Ibarra.232fbcdcb39f9d651d40.JPG",
     "static/media/nucleo-icons.eot": "/proyecto_alumnos/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.ce644069.css",
-    "static/js/main.3bcd3438.js"
+    "static/js/main.1768efb3.js"
   ]
 }
